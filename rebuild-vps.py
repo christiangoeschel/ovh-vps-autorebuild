@@ -22,7 +22,7 @@ client = ovh.Client(
 )
 
 # VPS to reinstall
-vps_name = "vps-4596d6f9.vps.ovh.ca"
+vps_name = ""
 
 # Function that will query all available images for the specified VPS
 def available_images(vps_name):
