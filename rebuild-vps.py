@@ -1,12 +1,12 @@
-# [ Name ]:             OVH API Call handler
+# [ Name ]:             OVHcloud VPS auto-rebuild
 # [ Version ]:          1.0
 # [ Author ]:           Christian Goeschel Ndjomouo
 # [ Created on ]:       Sep 25 2023
 # [ Last updated on ]:  Sep 26 2023
 # [ Tested on ]:        Python v3.9
 #
-# [ Description ]:      This program reads your preset creds.json file and pulls out the AK, AS and CK which are used 
-#                       to create a Client object to authenticate/sign your OVH API calls in the api_call_handler.py 
+# [ Description ]:      This program automates the rebuild of your OVHcloud VPS
+#                       The app parameters are imported from ovh_app_params.py
 
 # Import needed modules
 import ovh
