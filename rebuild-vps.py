@@ -2,7 +2,7 @@
 # [ Version ]:          1.0
 # [ Author ]:           Christian Goeschel Ndjomouo
 # [ Created on ]:       Sep 25 2023
-# [ Last updated on ]:  Sep 25 2023
+# [ Last updated on ]:  Sep 26 2023
 # [ Tested on ]:        Python v3.9
 #
 # [ Description ]:      This program reads your preset creds.json file and pulls out the AK, AS and CK which are used 
@@ -12,7 +12,7 @@
 import ovh
 import json
 import sys
-from ovh_api_creds import client_params
+from ovh_app_params import client_params
 
 client = ovh.Client(
     endpoint= client_params['endpoint'],
@@ -70,7 +70,7 @@ def map_image_ids(image_id_list):
         
         # Progress bar 
         progress_bar =  str("=" * counter) + str(" " * (len(image_id_list) - counter))
-        message = str(f"[{progress_bar}] | Updating cache: " + str(counter) + f" | Progress {  round( (counter / len(image_id_list)) * 100, 2) } %")
+        message = str(f"[{progress_bar}] | Updating cache: " + str(counter) + f" | Progress {round((counter / len(image_id_list)) * 100, 2)} %")
         sys.stdout.write("\r" + message)   
         sys.stdout.flush()
       
