@@ -7,10 +7,14 @@ The very first step is the installation of OVH's official Python wrapper which w
 
 The easiest way to get the latest stable release is to grab it from pypi using pip.
 
-```pip install ovh```
+``` Bash
+pip install ovh
+```
 
 Alternatively, you may get latest development version directly from Git.
 
-```pip install -e git+https://github.com/ovh/python-ovh.git#egg=ovh```
+``` Bash
+pip install -e git+https://github.com/ovh/python-ovh.git#egg=ovh
+```
 
 People looking for Python 2 compatibility should use 0.6.x version.
