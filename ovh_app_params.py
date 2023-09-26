@@ -1,8 +1,8 @@
-# [ Name ]:             OVH API App credentials handler
+# [ Name ]:             OVHcloud API client parameter handler
 # [ Version ]:          1.0
 # [ Author ]:           Christian Goeschel Ndjomouo
 # [ Created on ]:       Sep 25 2023
-# [ Last updated on ]:  Sep 25 2023
+# [ Last updated on ]:  Sep 26 2023
 # [ Tested on ]:        Python v3.9
 #
 # [ Description ]:      This program reads your preset params.json file and pulls out the AK, AS and CK which are used 
