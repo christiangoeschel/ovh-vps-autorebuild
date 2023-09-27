@@ -1,3 +1,5 @@
+<img src="https://github.com/christiangoeschel/ovh-vps-autorebuild/blob/main/ovhvpsautorebuild.png" width="100%" height="auto"/>
+
 # OVHcloud VPS Auto-rebuild
 This Python program will automate the rebuild / reinstall of your OVHcloud VPS in a matter of seconds.
 
